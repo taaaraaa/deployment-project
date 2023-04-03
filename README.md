@@ -22,21 +22,19 @@ The strongest positive correlation with LoanApproval is found with CreditHistory
  Negative correlations with LoanApproval are observed with:
  - LoanAmount
  - LoanAmountTerm
- - SelfEmployed (closest to 0)
- - Gender_Female
+ - SelfEmployed
  - Married_No
- - Dependents_0, Dependents_1
+ - Dependents_0, Dependents_1, Dependents_3+ 
  - PropertyArea_Rural (most negative)
  - PropertyArea_Urban
  
  Positive correlations with LoanApproval are found with:
  - ApplicantIncome
  - CoapplicantIncome
- - Graduate
+ - Education_Graduate 
  - CreditHistory (most positive)
- - Gender_Male, Married_Unknown
- - Married_Yes
- - Dependents_2, Dependents_3 (closest to 0)
+ - Married
+ - Dependents_2
  - PropertyArea_Semiurban
  
  People approved for loans are likely to have coapplicants with high income, be a graduate, have credit history, be male, be married/unknown, have two children and live in the suburbs. On the other hand, those who aren't approved tend to ask for large loans and long terms, are female/unknown gender, aren't married, have none or one child, and live in a rural or urban area. 
